@@ -47,3 +47,40 @@ nav a {
   margin-right: 10px;
   margin-top: -76px;
 }
+
+#home {
+  background-image: url(https://images.ricardocuisine.com/services/recipes/1074x1074_10513347605215fdf75e042-background.jpg);
+  background-size: cover;
+  height: 1000px;
+
+}
+
+h2:after {
+  border-bottom: 1px solid #413f3f;
+  font-family: 'Great Vibes', cursive;
+  font-size: 90px;
+  text-align: center;  
+  content: "Welcome to Pizza Gusto"; 
+  display: block; 
+  margin: 0 auto; 
+  width: 50%;
+  padding-top: 20px; 
+}
+
+.a {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 30px;
+}
+
+/* body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    #666,
+    #222
+  );
+} */
