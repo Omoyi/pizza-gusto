@@ -27,7 +27,7 @@ nav a {
   float: left;
   font-family: 'Lacquer', sans-serif;
   font-size: 25px;
-  color: black;
+  color: rgb(41, 23, 23);
   padding-top: 20px;
   padding-right: 70px;
   padding-bottom: 10px;
@@ -65,12 +65,14 @@ h2:after {
   margin: 0 auto; 
   width: 50%;
   padding-top: 20px; 
+  color: rgb(87, 67, 17);
 }
 
 .a {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   font-size: 30px;
+  color: rgb(61, 27, 22);
 }
 
 /* body {
