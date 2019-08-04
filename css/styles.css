@@ -25,8 +25,7 @@ nav a {
   font-family: 'Lacquer', sans-serif;
   font-size: 25px;
   color: white;
-  
-  /* padding-top: 50px; */
+  padding-top: 20px;
   padding-right: 70px;
   padding-bottom: 10px;
   padding-left: 10px;
@@ -49,20 +48,6 @@ nav a {
   padding-right: 150px;
   margin-right: 10px;
   margin-top: -76px;
-}
-
-.module {
-  /* width: 300px;
-  height: 300px; */
-  /* border: 1px solid white; */
-  background-image: url(https://thumbs.dreamstime.com/b/pizza-salami-olives-basil-82570250.jpg);
-  background-size: cover;
-}  
-
-#home, #module {
-  background-image: url(https://thumbs.dreamstime.com/b/pizza-salami-olives-basil-82570250.jpg);
-  background-size: cover;
-  height:800px;
 }
 
 /* body {
