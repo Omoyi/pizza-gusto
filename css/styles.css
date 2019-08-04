@@ -1,6 +1,5 @@
 .body {
   background-color: bisque;
-  
 }
 
 button {
@@ -23,28 +22,55 @@ nav {
 nav a {
   display: block;
   float: left;
-  font-family: sans-serif;
-  font-size: 20px;
+  font-family: 'Lacquer', sans-serif;
+  font-size: 25px;
   color: black;
-  /* background-color: #285058; */
-  padding-top: 20px;
-  padding-right: 90px;
+  padding-top: 50px;
+  padding-right: 70px;
   padding-bottom: 10px;
   padding-left: 10px;
 }
 
-nav a:hover {
-  /* background-color: #0c1a20; */
-  text-decoration: none;
+#menu {
+  padding-right: 150px;
 }
 
+/* nav a:hover {
+  color: #200c18;
+  text-decoration: none;
+} */
+
 #logo {
-  font-family: 'hind', sans-serif;
   font-size: 40px;
   letter-spacing: -2px;
   text-shadow: 1px 1px 2px #c4c4c4;
   padding-left: 40px;
   padding-right: 150px;
   margin-right: 10px;
-  margin-top: -15px;
+  margin-top: -76px;
 }
+
+.module {
+  /* width: 300px;
+  height: 300px; */
+  /* border: 1px solid white; */
+  background-image: url(https://thumbs.dreamstime.com/b/pizza-salami-olives-basil-82570250.jpg);
+  background-size: cover;
+}  
+
+#home, #module {
+  background-image: url(https://thumbs.dreamstime.com/b/pizza-salami-olives-basil-82570250.jpg);
+  background-size: cover;
+}
+
+/* body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(
+    #666,
+    #222
+  );
+} */
