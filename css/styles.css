@@ -118,8 +118,8 @@ input {
 
 .menu {
   height: 100vh;
-  margin: 40%;
-  font-family: 'Great Vibes', cursive;
+  margin-top: 10%;
+  font-family: 'Lacquer', sans-serif;
   /* display: flex; */
   /* justify-content: center; */
   align-items: center;
