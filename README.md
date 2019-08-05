@@ -14,3 +14,12 @@ This is a web app which helps pizza lovers order
 * Google chrome
 
 * Visualstudio code, atom(this is if you use atom)
+
+## BDD
+
+**Input**
+
+1. There is an input box for ordering the pizza you want.
+ Fill it in and click the order button.
+
+2. 
