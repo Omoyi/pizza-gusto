@@ -68,6 +68,19 @@ h2:after {
   color: rgb(87, 67, 17);
 }
 
+h3:after {
+  border-bottom: 1px solid #413f3f;
+  font-family: 'Great Vibes', cursive;
+  font-size: 70px;
+  text-align: center;  
+  content: "ORDER A PIZZA TODAY"; 
+  display: block; 
+  margin: 0 auto; 
+  width: 50%;
+  padding-top: 20px; 
+  color: rgb(87, 67, 17);
+}
+
 .a {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
@@ -75,6 +88,17 @@ h2:after {
   color: rgb(61, 27, 22);
 }
 
+.order {
+  color: golden rod;
+  background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  padding-left: 15%;
+}
+form {
+  background-color: black;
+  opacity: 0.6;
+  border-top-left-radius: 15%;
+  border-bottom-right-radius: 15%;
+}
 /* body {
   height: 100vh;
   margin: 0;

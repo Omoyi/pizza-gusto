@@ -33,25 +33,6 @@
     <button type="submit" id="order"><a href="#order" style="color: rgb(226, 207, 97);">Order now!</a></button>
     <button disabled="disabled">Home</button>
   </div>
-  <div id="order"><br><br>
-    <h2>ORDER A PIZZA TODAY</h2>     
-    <p class="a" style="font-size: 25px;">Choose the size you want!</p><br>
-    <label class="radio-inline" style="font-size: 20px;">
-      <input type="radio" name="optradio" id="type" checked>SMALL
-    </label><br><br>
-    <label class="radio-inline" style="font-size: 20px;">
-      <input type="radio" name="optradio">MEDIUM
-    </label><br><br><br>
-    <label class="radio-inline" style="font-size: 20px;">
-      <input type="radio" name="optradio">BIG
-    </label><br><br><br>
-    <p class="a" style="font-size: 29px;">TYPE OF CRUST</p><br>
-    <input type="number" class="form-control" id="dd" placeholder="e.g: Cheese stuffed" name="day" style="padding: 29px; width:70%;" required><br>
-    <p class="a" style="font-size: 29px;">TOPPING</p><br>         
-    <input type="number" class="form-control" id="mm" placeholder="e.g: sausage" name="month" style="padding: 29px; width:70%;" required><br>
-    <p class="a" style="font-size: 29px;">THE NUMBER OF PIZZA"S</p>         
-    <input type="number" class="form-control" id="yy" placeholder="e.g: 2" name="year" style="padding: 29px; width:70%;" required><br>
-    <button type="submit" id="dis" style="font-size: 20px; padding: 18px;" class="btn btn-default" onClick="myFunct()">ORDER</button><br><br><br><br><br>
   <div id="gallery" class="container-fluid">
     <div id="myCarousel" class="carousel slide" data-ride="carousel">
       <ol class="carousel-indicators">
@@ -85,5 +66,26 @@
         </div>
     </div> 
   </div>
+  <div id="order" class="order"><br><br>
+    <form action="form-inline">
+      <h3>ORDER A PIZZA TODAY</h3>     
+      <p class="a" style="font-size: 25px;">Choose the size you want!</p><br>
+      <label class="radio-inline" style="font-size: 20px;">
+        <input type="radio" name="optradio" id="type" checked>SMALL
+      </label><br><br>
+      <label class="radio-inline" style="font-size: 20px;">
+        <input type="radio" name="optradio">MEDIUM
+      </label><br><br><br>
+      <label class="radio-inline" style="font-size: 20px;">
+        <input type="radio" name="optradio">BIG
+      </label><br><br><br>
+      <p class="a" style="font-size: 29px;">TYPE OF CRUST</p><br>
+      <input type="number" class="form-control" id="dd" placeholder="e.g: Cheese stuffed" name="day" style="padding: 29px; width:70%;" required><br>
+      <p class="a" style="font-size: 29px;">TOPPING</p><br>         
+      <input type="number" class="form-control" id="mm" placeholder="e.g: sausage" name="month" style="padding: 29px; width:70%;" required><br>
+      <p class="a" style="font-size: 29px;">THE NUMBER OF PIZZA"S</p>         
+      <input type="number" class="form-control" id="yy" placeholder="e.g: 2" name="year" style="padding: 29px; width:70%;" required><br>
+   <button type="submit" id="dis" style="font-size: 20px; padding: 18px;" class="btn btn-default" onClick="myFunct()">ORDER</button><br><br><br><br><br>
+  </form>
 </body>
 </html>
