@@ -118,7 +118,7 @@ input {
 
 .menu {
   height: 100vh;
-  margin-top: 10%;
+  padding-top: 10%;
   font-family: 'Lacquer', sans-serif;
   /* display: flex; */
   /* justify-content: center; */
