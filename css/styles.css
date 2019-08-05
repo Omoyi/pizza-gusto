@@ -115,14 +115,16 @@ form {
 input {
   margin-left: 15%; 
 }
-/* body {
+
+.menu {
   height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
+  margin: 40%;
+  font-family: 'Great Vibes', cursive;
+  /* display: flex; */
+  /* justify-content: center; */
   align-items: center;
   background: radial-gradient(
-    #666,
-    #222
+    rgb(138, 104, 104),
+    rgb(29, 25, 24)
   );
-} */
+} 
