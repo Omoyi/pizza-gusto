@@ -140,3 +140,8 @@ h1 {
   text-align: center;
   
 }
+
+option {
+  padding: 15px;
+  background-color: beige;
+}
