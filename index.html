@@ -52,6 +52,7 @@
         <li data-target="#myCarousel" data-slide-to="8"></li>
         <li data-target="#myCarousel" data-slide-to="9"></li>
         <li data-target="#myCarousel" data-slide-to="10"></li>
+        <li data-target="#myCarousel" data-slide-to="11"></li>
       </ol>
       <div class="carousel-inner">
         <div class="item active">
@@ -63,7 +64,7 @@
         </div>
           
         <div class="item">
-          <img src="https://thumbs.dreamstime.com/b/pizza-rustic-italian-mozzarella-cheese-basil-leaves-35669930.jpg" alt="pizza" style="width:100%;">
+          <img src="image/pizza1.jpg" alt="pizza" style="width:100%;">
         </div>
         
         <div class="item">
@@ -71,19 +72,19 @@
         </div>
         
         <div class="item">
-          <img src="image/pizza1.jpg" alt="pizza" style="width:100%;">
+          <img src="image/pizza3.jpg" alt="pizza" style="width:100%;">
         </div>
 
         <div class="item">
           <img src="image/pizza12.jpg" alt="pizza" style="width:100%;">
         </div>
 
-        <div class="item">
-          <img src="image/pizza4.jpeg" alt="pizza" style="width:100%;">
+        <div classHomeHome="item">
+          <img src="image/pizza4.jpg" alt="pizza" style="width:100%;">
         </div>
 
         <div class="item">
-          <img src="image/pizza7.jpg" alt="pizza" style="width:100%;">
+          <img src="image/pizza5.jpg" alt="pizza" style="width:100%;">
         </div>
         
         <div class="item">
@@ -91,11 +92,7 @@
         </div>
 
         <div class="item">
-          <img src="image/pizza11.jpg" alt="pizza" style="width:100%;">
-        </div>
-            
-        <div class="item">
-          <img src="image/pizza10.jpg" alt="pizza" style="width:100%;">
+          <img src="image/pizza122.jpg" alt="pizza" style="width:100%;">
         </div>
 
       </div>
@@ -149,22 +146,25 @@
         </ol>
       </div>
     </div>
+    <div>
+
+    </div>
   </div>
   <div id="order" class="order"><br><br>
     <h3></h3><br> 
-    <form action="form-inline">
+    <form id="form" action="form-inline">
       <p class="b" style="font-size: 25px;">Choose the size you want!</p><br>
       <label class="radio-inline" style="font-size: 20px;">
-        <input type="radio" name="optradio" id="type" checked>SMALL -
+        <input type="radio" name="optradio" value="Small" id="type" checked>SMALL -
       </label><br><br><br>
       <label class="radio-inline" style="font-size: 20px;">
-        <input type="radio" name="optradio">MEDIUM
+        <input type="radio" value="Medium" name="optradio" id="type">MEDIUM
       </label><br><br><br>
       <label class="radio-inline" style="font-size: 20px;">
-        <input type="radio" name="optradio">BIG ONE
+        <input type="radio" value="Big" name="optradio" id="type">BIG ONE
       </label><br><br><br>
       <p class="b" style="font-size: 29px;">TYPES OF CRUST</p><br>
-      <select required>
+      <select id="select" required>
         <option value="Chicago Style Pan">Chicago Style Pan</option>
         <option value="New York">New York</option>
         <option value="Flat Bread">Flat Bread</option>
@@ -173,9 +173,9 @@
         <option value="Stuffed Dough">Stuffed Dough</option>
         <option value="Coast to Coast (no pizza rind)">Coast to Coast (no pizza rind)</option>
         <option value="Boneless (same as Coast to Coast)">Boneless (same as Coast to Coast)</option>
-      </select><br><br>
+      </select><br><br>()
       <p class="b" style="font-size: 29px;">TOPPINGS</p><br>
-      <select required><br>
+      <select id="sel2" required><br>
         <option value="Pepperoni">Pepperoni</option>
         <option value="Mushrooms">Mushrooms</option>
         <option value="Onions">Onions</option>
@@ -186,7 +186,7 @@
         <option value="Green peppers">Green peppers</option>
       </select><br><br>
       <p class="b" style="font-size: 29px;">THE NUMBER OF PIZZA"S</p><br>
-      <select required>
+      <select id="sel3" required>
         <option value="1">1</option>
         <option value="2">2</option>
         <option value="3">3</option>
@@ -198,11 +198,11 @@
         <option value="8">9</option>
         <option value="8">10</option>
       </select><br><br>
-      <button type="submit" id="dis" style="font-size: 20px; padding: 18px; margin-right: 17%;" class="btn btn-default" onClick="myFunct()">ORDER</button><br><br><br>
+      <button type="submit" id="dis" style="font-size: 20px; padding: 18px; margin-right: 17%;" class="btn btn-default">ORDER</button><br><br><br>
     </form>
   </div>
   <div class="contact">
     
   </div>
 </body>
-</html>
+</html>i
