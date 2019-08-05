@@ -91,11 +91,14 @@ h3:after {
 .order {
   color: golden rod;
   background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
-  padding-left: 15%;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 form {
   background-color: black;
   opacity: 0.6;
+  padding-left: 15%;
   border-top-left-radius: 15%;
   border-bottom-right-radius: 15%;
 }
