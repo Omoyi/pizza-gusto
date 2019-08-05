@@ -113,10 +113,6 @@ form {
   border-radius: 15%;
 }
 
-input {
-  margin-left: 15%; 
-}
-
 .menu {
   text-align: center;
   font-size: 30px;
@@ -141,7 +137,11 @@ h1 {
   
 }
 
-option {
-  padding: 15px;
+select {
+  width:70%; 
+  padding: 20px; 
+  border-radius: 18px; 
+  font-size: 20px;
   background-color: beige;
+  color:  black;
 }
