@@ -74,12 +74,12 @@ h3:after {
   font-size: 50px;
   letter-spacing: 2px; 
   text-align: center;  
-  content: "ORDER A PIZZA TODAY"; 
+  content: "Order a pizza today"; 
   display: block; 
   margin: 0 auto; 
   width: 50%;
   padding-top: 20px; 
-  color: white;
+  color: rgb(235, 228, 227);
 }
 
 .a {
@@ -87,6 +87,13 @@ h3:after {
   text-align: center;
   font-size: 30px;
   color: rgb(61, 27, 22);
+}
+
+.b {
+  font-family: 'Open Sans Condensed', sans-serif;
+  text-align: center;
+  font-size: 30px;
+  color: white;
 }
 
 .order {
