@@ -109,14 +109,14 @@ form {
   background-color: black;
   opacity: 0.6;
   width: 900px;
-  margin-left: 20%;
+  margin-left: 15%;
   border-radius: 15%;
 }
 
 .menu {
   text-align: center;
   font-size: 30px;
-  height: 300vh;
+  height: 280vh;
   padding-left: 170px;
   padding-top: 10%;
   font-family: 'Great Vibes', cursive;
@@ -130,6 +130,7 @@ form {
 h1 {
   font-size: 50px;
   color: rgb(243, 243, 188);
+  border-bottom: 1px solid goldenrod;
 }
 
 #a {
@@ -139,9 +140,23 @@ h1 {
 
 select {
   width:70%; 
-  padding: 20px; 
-  border-radius: 18px; 
+  padding: 15px; 
   font-size: 20px;
   background-color: beige;
   color:  black;
+}
+
+h4 {
+  /* border-block-end-color: beige; */
+  font-family: 'Lacquer', sans-serif;
+  font-size: 30px;
+  color: rgb(243, 243, 188);
+}
+
+li {
+  color: antiquewhite;
+}
+
+.row {
+  padding: 10%;
 }
