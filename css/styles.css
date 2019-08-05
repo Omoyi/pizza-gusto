@@ -40,12 +40,11 @@ nav a {
 
 #logo {
   font-size: 40px;
-  letter-spacing: -2px; 
   text-shadow: 1px 1px 2px #c4c4c4;
   padding-left: 40px;
-  padding-right: 150px;
+  padding-right: 200px;
   margin-right: 10px;
-  margin-top: -76px;
+  /* margin-top: -76px; */
 }
 
 #home {
@@ -117,7 +116,7 @@ input {
 .menu {
   text-align: center;
   font-size: 30px;
-  height: 160vh;
+  height: 300vh;
   padding-left: 170px;
   padding-top: 10%;
   font-family: 'Great Vibes', cursive;
