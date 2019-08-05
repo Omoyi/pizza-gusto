@@ -52,6 +52,7 @@ nav a {
   background-image: url(https://images.ricardocuisine.com/services/recipes/1074x1074_10513347605215fdf75e042-background.jpg);
   background-size: cover;
   height: 1000px;
+  background-attachment: fixed;
 
 }
 
@@ -81,17 +82,14 @@ h3:after {
   color: rgb(235, 228, 227);
 }
 
-.a {
+.a, .b {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   font-size: 30px;
   color: rgb(61, 27, 22);
 }
 
-.b {
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-align: center;
-  font-size: 30px;
+.b, .c {
   color: white;
 }
 
@@ -117,14 +115,20 @@ input {
 }
 
 .menu {
-  height: 100vh;
+  text-align: center;
+  font-size: 30px;
+  height: 160vh;
+  padding-left: 170px;
   padding-top: 10%;
-  font-family: 'Lacquer', sans-serif;
-  /* display: flex; */
-  /* justify-content: center; */
+  font-family: 'Great Vibes', cursive;
   align-items: center;
   background: radial-gradient(
-    rgb(138, 104, 104),
+    rgb(148, 42, 42),
     rgb(29, 25, 24)
   );
 } 
+
+h1 {
+  font-size: 50px;
+  color: rgb(243, 243, 188);
+}
