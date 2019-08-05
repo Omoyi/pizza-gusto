@@ -13,8 +13,12 @@ button {
   background-color: cream;
 }
 
-#order {
+#btnorder {
   background-color: brown;
+}
+
+#btnorder :hover {
+  text-decoration: none;
 }
 
 nav {
@@ -40,18 +44,17 @@ nav a {
 
 #logo {
   font-size: 40px;
-  letter-spacing: -2px; 
   text-shadow: 1px 1px 2px #c4c4c4;
   padding-left: 40px;
-  padding-right: 150px;
+  padding-right: 200px;
   margin-right: 10px;
-  margin-top: -76px;
 }
 
 #home {
-  background-image: url(https://images.ricardocuisine.com/services/recipes/1074x1074_10513347605215fdf75e042-background.jpg);
+  background-image: url(https://www.akcrust.com/hs-fs/hubfs/Blog_Images/crust-variety.jpg?width=700&name=crust-variety.jpg);
   background-size: cover;
   height: 1000px;
+  background-attachment: fixed;
 
 }
 
@@ -68,21 +71,71 @@ h2:after {
   color: rgb(87, 67, 17);
 }
 
-.a {
+h3:after {
+  border-bottom: 1px solid #413f3f;
+  font-family: 'Great Vibes', cursive;
+  font-size: 80px;
+  text-align: center;  
+  content: "Order a pizza today"; 
+  display: block; 
+  margin: 0 auto; 
+  width: 50%;
+  padding-top: 20px; 
+  color: rgb(235, 228, 227);
+}
+
+.a, .b {
   font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
   font-size: 30px;
   color: rgb(61, 27, 22);
 }
 
-/* body {
-  height: 100vh;
-  margin: 0;
-  display: flex;
-  justify-content: center;
+.b, .c {
+  color: white;
+}
+
+.order {
+  color: white;
+  background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+form {
+  text-align: center;
+  background-color: black;
+  opacity: 0.6;
+  width: 900px;
+  margin-left: 20%;
+  border-radius: 15%;
+}
+
+input {
+  margin-left: 15%; 
+}
+
+.menu {
+  text-align: center;
+  font-size: 30px;
+  height: 300vh;
+  padding-left: 170px;
+  padding-top: 10%;
+  font-family: 'Great Vibes', cursive;
   align-items: center;
   background: radial-gradient(
-    #666,
-    #222
+    rgb(148, 42, 42),
+    rgb(29, 25, 24)
   );
-} */
+} 
+
+h1 {
+  font-size: 50px;
+  color: rgb(243, 243, 188);
+}
+
+#a {
+  text-align: center;
+  
+}
