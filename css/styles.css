@@ -71,7 +71,8 @@ h2:after {
 h3:after {
   border-bottom: 1px solid #413f3f;
   font-family: 'Great Vibes', cursive;
-  font-size: 70px;
+  font-size: 50px;
+  letter-spacing: 2px; 
   text-align: center;  
   content: "ORDER A PIZZA TODAY"; 
   display: block; 
@@ -89,18 +90,24 @@ h3:after {
 }
 
 .order {
-  color: golden rod;
+  color: white;
   background-image: url(https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&w=1000&q=80);
   background-size: cover;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+
 form {
+  text-align: center;
   background-color: black;
   opacity: 0.6;
-  width: 100%;
-  padding-left: 14%;
+  width: 900px;
+  margin-left: 20%;
   border-radius: 15%;
+}
+
+input {
+  margin-left: 15%; 
 }
 /* body {
   height: 100vh;
