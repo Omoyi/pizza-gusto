@@ -17,6 +17,7 @@ $(document).ready(function(){
     var toppings=$("select#sel2").val();
     var number=$("select#sel3").val();
     });
+    
   });
 });
 
