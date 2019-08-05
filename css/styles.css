@@ -78,7 +78,7 @@ h3:after {
   margin: 0 auto; 
   width: 50%;
   padding-top: 20px; 
-  color: rgb(87, 67, 17);
+  color: white;
 }
 
 .a {
@@ -98,10 +98,9 @@ h3:after {
 form {
   background-color: black;
   opacity: 0.6;
-  width: 80%;
-  padding-left: 15%;
-  border-top-left-radius: 15%;
-  border-bottom-right-radius: 15%;
+  width: 100%;
+  padding-left: 14%;
+  border-radius: 15%;
 }
 /* body {
   height: 100vh;
